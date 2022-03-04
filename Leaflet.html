@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--https://joshuafrazier.info/leaflet-basics/ -->
+<title>Leaflet Web Map</title>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+	integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+	crossorigin=""/>
+
+  <script
+	src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+	integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+	crossorigin="" ></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+	
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"">
+	
+	<style>
+	h1 {font-family:'Roboto', sans-serif;}
+	h2 {font-family:'Roboto', sans-serif;}
+	h3 {font-family:'Roboto', sans-serif;}
+	h4 {font-family:'Roboto', sans-serif;}
+	h5 {font-family:'Roboto', sans-serif;}
+	h6 {font-family:'Roboto', sans-serif;}
+	p  {font-family:'Roboto', sans-serif;}
+
+	#map {
+		width: 100%;
+		height:500px;
+	}
+	
+	</style>
+
+<head>
+
+	<body>
+	<div class="w3-bar w3-black">
+	<a href=Home.html class="w3-bar-item w3-button w3-left" onclick="openCity('Home')">Home</button></a>
+	<a href=Google.html class="w3-bar-item w3-button w3-right" onclick="openCity('Google Maps')">Google Map</button></a>
+	<a href=Leaflet.html class="w3-bar-item w3-button w3-right" onclick="openCity('Leaflet')">Leaflet</button></a>
+	<a href=ArcGIS.html class="w3-bar-item w3-button w3-right" onclick="openCity('ArcGIS')">ArcGIS</button></a>
+  </div>
+
+<section>
+		
+	<div class="w3-display-container w3-text-white">
+		<img src="images\isle-of-wight-3.jpg" style="width:100%; max-height:500px">
+		<div class="w3-display-topmiddle w3-large"><h1>Leaflet</h1>	
+	</div>
+		<div class="w3-container w3-center w3-black w3-text-white w3-hover-text-gray">
+			<h2>Isle of White</h2>
+			<p>The Isle of Wight is Located of the south coast of England. Within this website, you can explore some of the features of the Island</p>
+	</div>		
+
+<div id="map"></div>
+	
+	<script>
+	
+		var map = L.map('map',{
+		center: [50.680, -1.2946015],
+		zoom: 11
+		});
+	
+		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+		}).addTo(map);
+	
+	</script>
+	
+	</body>
+	
+	</html>
+</section>
+</html>
