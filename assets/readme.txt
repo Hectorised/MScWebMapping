@@ -1,0 +1,2 @@
+Here are the datasets provided for the SDI module assignment. If you attended the earlier SDM module and prefer to use data from that, or indeed wish to source other data from the web then please feel free to do so. If you need help sourcing other data for your choisen applications - please ask!Watch the projections of data - web mapping often uses only Web Mercator and WGS84.
+Steve Hallett

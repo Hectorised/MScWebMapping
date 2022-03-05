@@ -1,0 +1,11 @@
+"Placename","Population"
+Cowes,16278
+Newport,20324
+Ryde,19843
+Bembridge,3452
+Brading,2071
+East Cowes,209
+Sandown,4813
+Shanklin,8140
+Totland,2316
+Ventnor,6458

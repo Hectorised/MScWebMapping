@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>OpenLayers Web Map</title>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,800&display=swap">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.13.0/css/ol.css" type="text/css">
+	
+<style>
+
+body,h1,h2,h3,h4,h5,h6 {font-family:'Alegreya', serif;}
+	p  {font-family: 'Roboto', sans-serif;}
+
+
+</style>
+
+
+<head>
+
+<!--Top Menu bar with links to web pages-->
+<section>
+	<div class="w3-bar w3-dark-gray" >
+		
+		<a href=index.html class="w3-bar-item w3-button w3-left" onclick="openpage('HomePage')">Home</button></a>
+		<a href=google.html class="w3-bar-item w3-button w3-right" onclick="openpage('Google Maps')">Google Maps</button></a>
+		<a href=openlayers.html class="w3-bar-item w3-button w3-right" onclick="openpage('openlayers')">Openlayers</button></a>
+		<a href=leaflet.html class="w3-bar-item w3-button w3-right" onclick="openpage('Leaflet')">Leaflet</button></a>
+		<a href=arcgis.html class="w3-bar-item w3-button w3-right" onclick="openpage('ArcGIS')">ArcGIS</button></a>
+	
+		<!--set dropdown for external link-->
+	
+		<div class="w3-dropdown-hover w3-right">
+			<button class="w3-button w3-dark-gray">Links</button>
+			<div class="w3-dropdown-content w3-bar-block w3-border">
+			  <a href="https://www.visitbritain.com/ca/en/england/southeast/isle-wight" class="w3-bar-item w3-button">Visit Britain</a>
+			  <a href="https://www.iow.gov.uk/" class="w3-bar-item w3-button">IoW Council</a>
+			  <a href="https://www.cranfield.ac.uk/" class="w3-bar-item w3-button">Cranfield University</a>
+			</div>
+		  </div>
+	  </div>
+	</section>
+	<section>
+	<style>
+		#welcome{
+			color: white;
+			padding: 40px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			text-shadow: 2px 2px #000000;
+			align-content: center;
+				}
+		</style>
+
+			<div class="w3-display-container">
+				 <div> <img src="images\isle-of-wight-3.jpg" style="width:100%; max-height:700px; opacity: 100%" class="responsive" > 
+				<div id=welcome style="font-size:2vw; w3-middle">Maps Created Using Geoserver and Open Layers</div>
+		
+				 </div>
+					
+		<!--introduction to webpage-->
+		
+			<div class="w3-container w3-center w3-dark-gray w3-text-white" > 
+				
+							<h3>The Isle of Wight is Located of the south coast of England. Within this webpage are layers served from Geoserver into Open Layers</h3>
+							<p>The base map has been created using an api from openlayers. Towns and the population are colour coded, as are highways by classificaiton. All layers were edited and
+								styled in QGIS, then uploaded to geoserver. The styling was exported from QGIS as an SLD file. Regrettably I was unable to get the legend to load into the map in time.
+							</p>
+			</div>		
+		
+		</section>
+
+<!-- Map API imported using text from https://openlayers.org/en/latest/doc/quickstart.html. Edited to resize and focus on the isle of wight-->
+
+<style>
+  .map {
+    height: 600px;
+    width: 100%;}
+  
+</style>
+
+<script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.13.0/build/ol.js"></script>
+
+
+<div id="map" class="map"></div>
+<script type="text/javascript">
+  var map = new ol.Map({
+    target: 'map',
+    layers: [
+      new ol.layer.Tile({
+        source: new ol.source.OSM()
+      })
+    ],
+    view: new ol.View({
+      center: ol.proj.fromLonLat([-1.2946015,50.680]),
+      zoom: 11
+    })
+  });
+
+
+// Remember to edit the settings below
+  // Remember to edit the settings below
+  var wmsSource1 = new ol.source.ImageWMS({
+		url: 'http://50CR018.sims.cranfield.ac.uk:8080/geoserver/wms',
+		params: {
+			'LAYERS': 'iow_roads'
+		},
+		serverType: 'geoserver',
+		crossOrigin: null // see https://gis.stackexchange.com/questions/113693/openlayers-3-cross-origin-request-blocked-the-same-origin-policy-disallows
+	});
+
+	var i= new ol.layer.Image({
+		source: wmsSource1
+	});
+	map.addLayer(i);
+
+
+	
+
+	var wmsSource3 = new ol.source.ImageWMS({
+		url: 'http://50CR018.sims.cranfield.ac.uk:8080/geoserver/wms',
+		params: {
+			'LAYERS': 'population_rp'
+		},
+		serverType: 'geoserver',
+		crossOrigin: null // see https://gis.stackexchange.com/questions/113693/openlayers-3-cross-origin-request-blocked-the-same-origin-policy-disallows
+	});
+
+	var iii= new ol.layer.Image({
+		source: wmsSource3
+	});
+
+	map.addLayer(iii);
+
+	var wmsSource2 = new ol.source.ImageWMS({
+		url: 'http://50CR018.sims.cranfield.ac.uk:8080/geoserver/wms',
+		params: {
+			'LAYERS': 'towns_rp'
+		},
+		serverType: 'geoserver',
+		crossOrigin: null // see https://gis.stackexchange.com/questions/113693/openlayers-3-cross-origin-request-blocked-the-same-origin-policy-disallows
+	});
+
+		var ii= new ol.layer.Image({
+		source: wmsSource2
+	});
+
+	map.addLayer(ii);
+</script>
+
+</body>
+
+<div class="w3-container w3-center w3-dark-gray w3-text-white" > 
+				
+	
+</div>		
+
+</section>
+<section>
+
+</section>
+</section>
+
+<!--footer created using w3.CSS style sheet. this ensures the map scrolls up to the middle of the screen and provides a footnote -->
+<section>
+    <div class="w3-bar w3-dark-gray w3-center" style="width:100%; height:200px"</div>
+        <h4>By Dominic Waller MSc Geographical Information Management. s323685.</h4>
+		<h6>Web Mapping Course 2022</h6>
+      </div>	
+
+</section>
+</section>
+
+
+</html>

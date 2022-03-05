@@ -1,0 +1,11 @@
+"Town","Easting","Northing"
+Cowes,449620,96040
+Newport,450320,89360
+Ryde,459540,92540
+Bembridge,465180,87740
+Brading,460860,86980
+East Cowes,450700,95640
+Sandown,459940,84240
+Shanklin,458600,81260
+Totland,433360,87440
+Ventnor,456420,77660

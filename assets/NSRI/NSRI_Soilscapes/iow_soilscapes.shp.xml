@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>National Soil Resources Institute</origin>
+				<pubdate>2003</pubdate>
+				<title Sync="TRUE">NATMAPsoilscapes_Clip</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink Sync="TRUE">\\cns.cranfield.ac.uk\filestore\groups\sas\CCGIM\Teaching\0809\SpatialDataandtheInternet\Assignment\Assignment Data\NATMAPsoilscapes_Clip.shp</onlink>
+				<ftname Sync="TRUE">NATMAPsoilscapes_Clip</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>This map of the soils of England is a simplified version of the National Soil Map and has been produced by the National Soil Resources Institute (NSRI) of Cranfield University with support from the Department for Environment, Food and Rural Affairs. It shows, in simple terms, what the likely soil conditions are at any point in the landscape by reference to one of 27 different broad types of soil.</abstract>
+			<purpose>NATMAP soilscapes was designed to provide a simpler and more easily understood soil map of England and Wales.</purpose>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<mdattim>
+					<sngdate>
+						<caldate>1979 - 1983</caldate>
+					</sngdate>
+					<sngdate>
+						<caldate>1984</caldate>
+					</sngdate>
+				</mdattim>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-7.098008</westbc>
+				<eastbc Sync="TRUE">2.097569</eastbc>
+				<northbc Sync="TRUE">55.833259</northbc>
+				<southbc Sync="TRUE">49.858951</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">79999.999975</leftbc><rightbc Sync="TRUE">657000.000030</rightbc><bottombc Sync="TRUE">4999.999775</bottombc><topbc Sync="TRUE">660000.000235</topbc></lboundng></spdom>
+		<keywords>
+			<place></place>
+			<stratum></stratum>
+			<theme><themekey>Soil</themekey><themekey>Landscape</themekey></theme></keywords>
+		<accconst>Financial, Legal</accconst>
+		<useconst>The information contained in LandIS is copyright and its use is therefore subject to a specific licensing agreement between NSRI and the user. Depending on the status of the user, the cost can vary from a fully commercial charge for extraction and preparation of the data to meet the user's needs.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>National Soil Resources Institute</cntorg>
+					<cntper>Datalease Officer</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>Cranfield University</address>
+					<city>Silsoe</city>
+					<state>Bedfordshire</state>
+					<postal>MK45 4DT</postal>
+					<country>UK</country>
+				</cntaddr>
+				<cntvoice>+44 (0) 1525 863257</cntvoice>
+				<cntfax>+44 (0) 1525 863253</cntfax>
+				<cntemail>nsridata@cranfield.ac.uk</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.0.1770</native>
+		<crossref>
+			<citeinfo>
+				<origin>National Soil Resources Institute</origin>
+				<pubdate>2003</pubdate>
+				<title>NATMAP soilscapes</title>
+			</citeinfo>
+		</crossref>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>NATMAP soilscapes is compiled from the National Soil Map which is the product of sixty years of soil survey sork in England and Wales.</attraccr>
+		</attracc>
+		<logic>Available through the National Soil Resources Institute</logic>
+		<complete>Dataset Complete</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Standard Quality Control procedure</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr>Standard Quality Control Procedure</vertaccr>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>National Soil Resources Institute</origin>
+						<title>National Soil Map for England and Wales</title>
+					</citeinfo>
+				</srccite>
+				<typesrc>Mixed</typesrc>
+				<srctime>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccontr>Derived from the National Soil Map</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>The National Soil Map forms the basis of NATMAP soilscapes, where the preparation of the data extended from 1:25 000 field sheets being transcribed to a base map of 1:50 000. The 1:50000 maps were then photographicaly reduced to form the basis of the National Soil Map.</procdesc>
+				<procdate>1979</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>National Soil Resources Institute</cntorg>
+						</cntorgp>
+						<cntvoice>01525 863257</cntvoice>
+						<cntemail>nsridata@cranfield.co.uk</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>The 1:50000 maps were then digitised, edgematched, edited and cleaned. All the polygons were digitised onto the national grid and the resultant coverages then built into a single coverage.</procdesc>
+				<procdate>1999</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Validation - the dataset was carefully checked in a cartographical process by SSLRC Geographical Systems Group</procdesc>
+				<procdate>2000</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>NATMAP soilscapes created by NSRI Geographical Systems Group from the National Soil Map</procdesc>
+				<procdate>2001</procdate>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\DOCUME~1\ss01cak\LOCALS~1\Temp\xml5.tmp</srcused><date Sync="TRUE">20040217</date><time Sync="TRUE">09492200</time></procstep><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">M:\SSLRC_Projects\GIS_Resources\Data\NATMAP\NATMAPsoilscapes\NATMAPsoilscapes.shp.xml</srcused><date Sync="TRUE">20050831</date><time Sync="TRUE">13273500</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">D:\Data\NATMAPvector\NATMAPsoilscapes</srcused><date Sync="TRUE">20050831</date><time Sync="TRUE">13292400</time></procstep></lineage>
+		<cloud>N/A</cloud>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="NATMAPsoilscapes_Clip">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">0</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="NATMAPsoilscapes_Clip"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000000</absres>
+						<ordres Sync="TRUE">0.000000</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">meters</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Transverse Mercator</mapprojn><transmer><sfctrmer Sync="TRUE">0.999601</sfctrmer><longcm Sync="TRUE">-2.000000</longcm><latprjo Sync="TRUE">49.000000</latprjo><feast Sync="TRUE">400000.000000</feast><fnorth Sync="TRUE">-100000.000000</fnorth></transmer></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">D_OSGB_1936</horizdn>
+				<ellips Sync="TRUE">Airy_1830</ellips>
+				<semiaxis Sync="TRUE">6377563.396000</semiaxis>
+				<denflat Sync="TRUE">299.324965</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_OSGB_1936</geogcsn><projcsn Sync="TRUE">British_National_Grid</projcsn></cordsysn></horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="NATMAPsoilscapes_Clip">
+			<enttyp>
+				<enttypl Sync="TRUE">NATMAPsoilscapes_Clip</enttypl>
+				<enttypd>1:250,000 map of Soil/Landscape classes</enttypd>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc><enttypds>NSRI</enttypds></enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">TEXTURE</attrlabl>
+				<attrdef>Main soil texture class. This column gives a general indication of the soil texture in the upper 30 cm of the soil. 'Light' soils have more sand grains and are described as sandy, while 'heavy' soils have few sand grains but a lot of extremely small particles and are described as clayey. Loamy soils have a mix of sand, silt and clay-sized particles and are intermediate in character. Soils that have a surface layer that is dominantly organic are described as Peaty. </attrdef>
+				<attalias Sync="TRUE">TEXTURE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">6</attwidth><attrdefs>NSRI</attrdefs></attr>
+			<attr>
+				<attrlabl Sync="TRUE">DRAINAGE</attrlabl>
+				<attrdef>Natural drainage type. All soils contain cracks and pores. Their average size and their total volume within a soil affect the speed and direction of rainwater draining through the soil. All soils act like sponges, but some are more absorbent than others.</attrdef>
+				<attalias Sync="TRUE">DRAINAGE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth><attrdefs>NSRI</attrdefs></attr>
+			<attr>
+				<attrlabl Sync="TRUE">FERTILITY</attrlabl>
+				<attrdef>Natural fertility.  Soils of very low natural fertility are very acid, have low numbers of soil-living organisms and support heathland and acid woodland habitats. Soils of low natural fertility are associated with a wide range of habitat types and are usually acid in reaction. The moderate class contains neutral to slightly acid soils, again with a wide range of potential habitats. Artificial liming of farmland reduces natural soil acidity. Soil of high natural fertility are both naturally productive and able to support the base-rich pastures and woodlands that are now rarely encountered. Lime-rich soils contain chalk and limestone in excess, and are associated with downland, herb-rich pastures and chalk and limestone woodlands</attrdef>
+				<attalias Sync="TRUE">FERTILITY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth><attrdefs>NSRI</attrdefs></attr>
+			<attr><attrlabl Sync="TRUE">SS_ID</attrlabl><attalias Sync="TRUE">SS_ID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">6</attwidth></attr><attr>
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">SOILSCAPE</attrlabl><attalias Sync="TRUE">SOILSCAPE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">90</attwidth></attr><attr><attrlabl Sync="TRUE">LANDCOVER</attrlabl><attalias Sync="TRUE">LANDCOVER</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr><attr><attrlabl Sync="TRUE">HABITAT</attrlabl><attalias Sync="TRUE">HABITAT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">130</attwidth></attr><attr><attrlabl Sync="TRUE">Area</attrlabl><attalias Sync="TRUE">Area</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr></detailed>
+		<overview></overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>National Soil Resources Institute</cntorg>
+					<cntper>Datalease Officer</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>Cranfield University</address>
+					<city>Silsoe</city>
+					<state>Bedfordshire</state>
+					<postal>MK45 4DTUK</postal>
+				</cntaddr>
+				<cntvoice>+44 (0) 1525 863257</cntvoice>
+				<cntfax>+44 (0) 1525 863253</cntfax>
+				<cntemail>nsridata@cranfield.ac.uk</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc>
+		<distliab>Stipulated in the Datalease Terms and Conditions</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize Sync="TRUE">0.000</transize>
+					<dssize Sync="TRUE">0.000</dssize></digtinfo>
+				<digtopt>
+					<offoptn>
+						<offmedia>CD-ROM</offmedia>
+					</offoptn>
+				</digtopt>
+			</digform>
+			<fees>Licence dependent</fees>
+			<ordering>
+Contact the datalease officer:
+nsridata@cranfield.ac.uk
+</ordering>
+		</stdorder>
+		<custom>Datalease Officer, National Soil Resources Institute</custom>
+		<techpreq>Data is accessible through a Geographic Information System and MS Excel</techpreq>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20090219</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>National Soil Resources Institute</cntorg>
+					<cntper>Datalease Officer</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>Cranfield University</address>
+					<city>Silsoe</city>
+					<state>Bedfordshire</state>
+					<postal>MK45 4DT</postal>
+					<country>UK</country>
+				</cntaddr>
+				<cntvoice>+44 (0) 1525 863257</cntvoice>
+				<cntfax>+44 (0) 1525 863253</cntfax>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20050831</CreaDate><CreaTime>13292400</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20090219</SyncDate><SyncTime>15084500</SyncTime><ModDate>20090219</ModDate><ModTime>15084500</ModTime><MetaID>{B6FFB7AD-5AA5-4491-8FC8-60A28E06207F}</MetaID><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Analysis Tools.tbx\Clip" Date="20090219" Time="150910">Clip NATMAPsoilscapes iow_soilscapes "V:\CCGIM\Teaching\0809\SpatialDataandtheInternet\Assignment\Assignment Data\NATMAPsoilscapes_Clip.shp" #</Process></lineage></DataProperties></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.0.1770</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">NATMAPsoilscapes_Clip</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">79999.999975</westBL><eastBL Sync="TRUE">657000.00003</eastBL><northBL Sync="TRUE">660000.000235</northBL><southBL Sync="TRUE">4999.999775</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-7.098008</westBL><eastBL Sync="TRUE">2.097569</eastBL><northBL Sync="TRUE">55.833259</northBL><southBL Sync="TRUE">49.858951</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\cns.cranfield.ac.uk\filestore\groups\sas\CCGIM\Teaching\0809\SpatialDataandtheInternet\Assignment\Assignment Data\NATMAPsoilscapes_Clip.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.000</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">British_National_Grid</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="NATMAPsoilscapes_Clip"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20090219</mdDateSt><GEMINI_Metadata><IdentificationInfo><spatialRepresentationType codeList="001"></spatialRepresentationType></IdentificationInfo><dateStamp>20090219</dateStamp><metadataStandardName>UK GEMINI Standard</metadataStandardName><metadataStandardVersion>1.0</metadataStandardVersion><referenceSystemInfo><referenceSystemIdentifier><code>001</code></referenceSystemIdentifier></referenceSystemInfo></GEMINI_Metadata></metadata>
