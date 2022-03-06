@@ -42,8 +42,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family:'Alegreya', serif;}
 			</div>
 		  </div>
 	  </div>
-	</section>
-	<section>
+</section>
+
+<section>
 	<style>
 		#welcome{
 			color: white;
@@ -73,10 +74,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family:'Alegreya', serif;}
 							</p>
 			</div>		
 		
-		</section>
+</section>
 
-<!-- Map API imported using text from https://openlayers.org/en/latest/doc/quickstart.html. Edited to resize and focus on the isle of wight-->
-
+<section>
 <style>
   .map {
     height: 600px;
@@ -103,15 +103,15 @@ body,h1,h2,h3,h4,h5,h6 {font-family:'Alegreya', serif;}
   });
 
 
-// Remember to edit the settings below
-  // Remember to edit the settings below
+
+
   var wmsSource1 = new ol.source.ImageWMS({
-		url: 'http://50CR018.sims.cranfield.ac.uk:8080/geoserver/wms',
+		url: 'https://50CR018.sims.cranfield.ac.uk:8080/geoserver/wms',
 		params: {
 			'LAYERS': 'iow_roads'
 		},
 		serverType: 'geoserver',
-		crossOrigin: null // see https://gis.stackexchange.com/questions/113693/openlayers-3-cross-origin-request-blocked-the-same-origin-policy-disallows
+		crossOrigin: null // 
 	});
 
 	var i= new ol.layer.Image({
@@ -123,12 +123,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family:'Alegreya', serif;}
 	
 
 	var wmsSource3 = new ol.source.ImageWMS({
-		url: 'http://50CR018.sims.cranfield.ac.uk:8080/geoserver/wms',
+		url: 'https://50CR018.sims.cranfield.ac.uk:8080/geoserver/wms',
 		params: {
 			'LAYERS': 'population_rp'
 		},
 		serverType: 'geoserver',
-		crossOrigin: null // see https://gis.stackexchange.com/questions/113693/openlayers-3-cross-origin-request-blocked-the-same-origin-policy-disallows
+		crossOrigin: null // 
 	});
 
 	var iii= new ol.layer.Image({
@@ -138,12 +138,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family:'Alegreya', serif;}
 	map.addLayer(iii);
 
 	var wmsSource2 = new ol.source.ImageWMS({
-		url: 'http://50CR018.sims.cranfield.ac.uk:8080/geoserver/wms',
+		url: 'https://50CR018.sims.cranfield.ac.uk:8080/geoserver/wms',
 		params: {
 			'LAYERS': 'towns_rp'
 		},
 		serverType: 'geoserver',
-		crossOrigin: null // see https://gis.stackexchange.com/questions/113693/openlayers-3-cross-origin-request-blocked-the-same-origin-policy-disallows
+		crossOrigin: null // 
 	});
 
 		var ii= new ol.layer.Image({
@@ -156,15 +156,11 @@ body,h1,h2,h3,h4,h5,h6 {font-family:'Alegreya', serif;}
 </body>
 
 <div class="w3-container w3-center w3-dark-gray w3-text-white" > 
-				
-	
-</div>		
+	</div>		
 
 </section>
-<section>
 
-</section>
-</section>
+
 
 <!--footer created using w3.CSS style sheet. this ensures the map scrolls up to the middle of the screen and provides a footnote -->
 <section>
@@ -174,7 +170,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family:'Alegreya', serif;}
       </div>	
 
 </section>
-</section>
+
 
 
 </html>
