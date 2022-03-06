@@ -87,8 +87,18 @@ body,h1,h2,h3,h4,h5,h6 {font-family:'Alegreya', serif;}
 <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.13.0/build/ol.js"></script>
 
 
+
 <div id="map" class="map"></div>
-<script type="text/javascript">
+
+
+<script 
+
+map = new OpenLayers.Map('map', {
+	projection: new OpenLayers.Projection("EPSG:3857")
+});
+
+
+type="text/javascript">
   var map = new ol.Map({
     target: 'map',
     layers: [
